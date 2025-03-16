@@ -1,4 +1,6 @@
-export const host = "http://127.0.0.1:8000";
+// export const host = "http://127.0.0.1:8000";
+import { host } from "../globalRoutes";
+
 export const fetchAvailableRoomsRoute = `${host}/visitorhostel/room_availabity_new/`;
 export const confirmBookingRoute = `${host}/visitorhostel/confirm-booking-new/`;
 export const fetchCompletedBookingsRoute = `${host}/visitorhostel/completed-bookings/`;
@@ -12,3 +14,5 @@ export const fetchIncomeDataRoute = `${host}/visitorhostel/accounts-income/`;
 export const addItemsRoute = `${host}/visitorhostel/api/inventory_add/`;
 export const fetchInventorydataRoute = `${host}/visitorhostel/api/inventory_list/`;
 export const fetchPartialBookingdataRoute = `${host}/visitorhostel/check-partial-booking/`;
+export const checkInBookingRoute = `${host}/visitorhostel/check-in/`;
+export const checkOutBookingRoute = `${host}/visitorhostel/check-out/`;
